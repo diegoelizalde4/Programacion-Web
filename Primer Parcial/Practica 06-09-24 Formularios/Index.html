@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Basico</title>
+    
+</head>
+<body>
+    <h1 align="Center">Ingresa tu información</h1>
+    <form action="">
+        <label for="name">Nombre:</label>
+        <input type="text" name="Name" id="name" required>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="Email" id="email" required>
+        <br>
+        
+        <label for="password">Contrasena: </label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        
+        <label for="genero">Genero: </label>
+         <input type="radio" name="Genero" id="genero" required>Hombre
+         <input type="radio" name="Genero" id="genero">Mujer
+         <input type="radio" name="Genero" id="genero">Otro
+        <br> 
+        
+        <label for="date">Fecha de Nacimiento: </label>
+        <input type="date" name="DateB" id="date" required>
+        <br>
+        
+        <label for="pais">Pais:</label>
+        <select name="" id="pais" required>
+            <option value="" disabled selected>Escoge:</option>
+            <option value="mx">Mexico</option>
+            <option value="us">USA</option>
+            <option value="ca">Canada</option>
+            <option value="ar">Argentina</option>
+            <option value="br">Brasil</option>
+        </select>
+        <br>
+        
+        <label for="boletin">Suscribirse al boletin:</label>
+        <input type="checkbox" name="" id="boletin">
+        <br>
+        
+        <label for="comentarios"></label>
+        <textarea name="" id="comentarios" rows="10" cols="50" placeholder="Ingresa tus comentarios aqui"></textarea>
+
+        <br>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
